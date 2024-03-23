@@ -10,7 +10,6 @@ This module allows to you login without a password and without using a third-par
 - [Setup](#setup)
     - [Composer installation](#composer-installation)
     - [Setup the module](#setup-the-module)
-- [Features](#features)
 - [Settings](#settings)
 - [Documentation](#documentation)
 - [Support](#support)
@@ -45,6 +44,7 @@ The configuration for this module is available in `Stores > Configuration > Cust
 
 ## Documentation
 
+This module is compatible with the latest version of Mage OS (2.4.6-p3)
 
 ## Support
 

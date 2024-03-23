@@ -8,12 +8,10 @@
 
 /**
  * @var \Magento\Customer\Block\Form\Login $block
- * @var \Magento\Customer\ViewModel\LoginButton $loginButtonViewModel
  * @var \Opengento\PasswordLessLogin\ViewModel\Account $loginViewModel
  * @var \Magento\Framework\Escaper $escaper
  */
 
-$loginButtonViewModel = $block->getData('login_button_view_model');
 $loginViewModel = $block->getData('login_view_model');
 ?>
 <div class="block block-customer-login">
@@ -42,7 +40,7 @@ $loginViewModel = $block->getData('login_view_model');
                 </div>
                 <?= $block->getChildHtml('form_additional_info') ?>
                 <div class="actions-toolbar">
-                    <div class="primary"><button type="submit" class="action login primary" name="send" id="send2" <?php if ($loginButtonViewModel->disabled()): ?> disabled="disabled" <?php endif; ?>><span><?= $block->escapeHtml(__('Sign In')) ?></span></button></div>
+                    <div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span><?= $block->escapeHtml(__('Sign In')) ?></span></button></div>
                 </div>
             </fieldset>
         </form>
