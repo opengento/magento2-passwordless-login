@@ -46,7 +46,7 @@ Make sure you have generated a secret key.
 
 ## Documentation
 
-The module is compatible with Magento 2 version 2.4.6-p4.
+This module is compatible with the latest version of Mage OS (2.4.6-p3)
 
 ## Support
 
